@@ -55,12 +55,12 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			/*- LOCAL ---------------*/
-			/*'host'      => 'localhost',
+			'host'      => 'localhost',
 			'database'  => 'nufarm_encuesta',
 			'username'  => 'root',
 			'password'  => '',
 			/*---PRODUCCION --*/
-			'host'      => '162.210.48.7',
+			/*'host'      => '162.210.48.7',
 			'database'  => 'nmaxx_encuesta',
 			'username'  => 'nmaxx_admin',
 			'password'  => 'Pass.1234',
