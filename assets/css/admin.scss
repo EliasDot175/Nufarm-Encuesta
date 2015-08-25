@@ -49,17 +49,49 @@ $violeta: rgba(142,50,137,.9);
     outline: 0;
 }
 
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: rgba(255,255,255,.1);
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    border: none;
+}
+
+thead,tbody{
+    border: none;
+    color: #fff;
+    background: rgba(29, 29, 27, 0.4);
+}
+
+table{
+    margin-top: 15px;
+}
+
+.panel {
+    margin-bottom: 0px;
+}
+
+.list-group-item {
+    background-color: rgba(0,0,0,.2);
+    border: none;
+    color: #fff;
+}
+
+.list-group {
+    padding-left: 0;
+    margin-bottom: 0;
+}
 
 .per100{
     height:100%;
 }
 a:hover, a:focus {
-    color: #0e7e02 ;
+    color: #666 ;
     text-decoration: none;
 }
 
 a{
-    color: #0e7e02;
+    color: #e1e1e1;
 }
 
 .navbar-default {
@@ -140,9 +172,12 @@ header{
 
 
 .panel-success {
-    border-color: #d6e9c6;
-    background-color: #d6e9c6;
+    border: none;
+    background-color: rgba(#009448,.2);
     width: 100%;
+    font-family: "BrooklynSamuelsFive-Bold";
+    margin-top: 15px;
+    color: #fff;
 
     	h1{
     		font-size: 20px;
@@ -226,6 +261,10 @@ header{
         .h4mdb{
             color: #008A39;
             font-size: 14px;
+            float: left;
+            margin:0;
+            padding: 8px 5px;
+            width: 90%;
         }
         .row{
             padding-top: 12px;
@@ -245,6 +284,20 @@ header{
         .question{
             font-size: 20px;
             color: white;
+
+              .identificador {
+                    color: #008A39;
+                    border: 1px solid #008A39;
+                    border-radius: 50%;
+                    display: inline-block;
+                    height: 30px;
+                    width: 30px;
+                    text-align: center;
+                    line-height: 30px;
+                    font-size: 20px;
+                    float: left;
+                    margin-right: 5px;
+                }
         }
 
 
@@ -315,7 +368,7 @@ header{
         background: rgba(#009448,0.2);
         margin-top: 0;
         padding-top: 0;
-        padding-bottom: 100px;
+        padding-bottom: 5px;
         .container {
             height: initial;
         }
