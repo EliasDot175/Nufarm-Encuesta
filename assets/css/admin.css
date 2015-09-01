@@ -322,4 +322,90 @@ footer {
     height: 120px;
     z-index: -100; }
 
+/* RESPONSIVE - DEFAULT */
+/*mobile--------------------------------------------------*/
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .metrica .pregunta .container {
+    height: 100%;
+    min-height: 140px; }
+
+  .pregunta .col-md-2 {
+    width: 33% !Important;
+    float: left;
+    margin-bottom: 20px; }
+
+  .pregunta .col-md-4 {
+    width: 33% !Important;
+    float: left; }
+
+  .metrica .pregunta .question {
+    width: 70%;
+    float: left;
+    margin-bottom: 20px; }
+
+  .vertical-align {
+    top: 0;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0); }
+
+  .metrica .pregunta .identificador {
+    float: left;
+    margin-right: 20px; }
+
+  .nav-custom-black {
+    margin-right: 10px; }
+
+  .navblack .navbar-header h1 {
+    margin-left: 10px; }
+
+  .metrica .pregunta {
+    padding: 15px; } }
+/**  MOBILE DISPOSITIVO **/
+/*tablet----------------------------------------*/
+/**  TABLETS LANDSCAPE **/
+@media screen and (min-width: 771px) and (max-width: 1000px) {
+  .metrica .pregunta .container {
+    height: 100%;
+    min-height: 140px; }
+
+  .pregunta .col-md-2 {
+    width: 33% !Important;
+    float: left;
+    margin-bottom: 20px; }
+
+  .pregunta .col-md-4 {
+    width: 33% !Important;
+    float: left; }
+
+  .metrica .pregunta .question {
+    width: 70%;
+    float: left;
+    margin-bottom: 20px; }
+
+  .vertical-align {
+    top: 0;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0); }
+
+  .metrica .pregunta .identificador {
+    float: left;
+    margin-right: 20px; }
+
+  .nav-custom-black {
+    margin-right: 10px; }
+
+  .navblack .navbar-header h1 {
+    margin-left: 10px; }
+
+  .metrica .pregunta {
+    padding: 15px; } }
+/**  TABLETS LANDSCAPE **/
+/*notbook------------------------------------*/
+/*desktop------------------------------*/
+/*desktop large-----------------------------------------------*/
+
 /*# sourceMappingURL=admin.css.map */
