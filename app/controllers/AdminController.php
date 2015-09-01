@@ -359,13 +359,13 @@ class AdminController extends BaseController {
 
         $array = array(
 
-            'muy buena' => 0,
-
             'exelente' => 0,
 
-            'regular' => 0,
+            'muy buena' => 0,
 
             'buena' => 0,
+            
+            'regular' => 0,
 
             'mala' => 0,
 
